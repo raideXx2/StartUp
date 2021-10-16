@@ -1,0 +1,292 @@
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    background-color: #130f40;
+    padding: 20px;
+}
+
+.menu a {
+    color: purple;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.header {
+    background-image: url(../images/bg.png);
+    height: 100vh;
+    text-align: center;
+    color: blueviolet;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header h1 {
+    font-size: 5vw;
+}
+
+.header h2 {
+    font-size: 3vw;
+}
+
+.titles {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about {
+    text-align: center;
+    display: flex;
+}
+
+.about img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.about_info {
+    padding: 290px 0;
+    font-size: 35px;
+    width: 50%;
+}
+
+.about_info p {
+    margin-top: 30px;
+}
+
+.about {
+    background-image: linear-gradient(90deg, purple, violet);
+}
+
+.team {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.member {
+    box-shadow: 5px 5px 15px blueviolet;
+    width: 300px;
+    padding: 10px 0;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.member img {
+    width: 95%;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.socials a {
+    display: inline-block;
+    background-image: url(../images/instagram.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.socials a:nth-child(2) {
+    background-image: url(../images/youtube.png);
+}
+
+.socials a:nth-child(3) {
+    background-image: url(../images/tik-tok.png);
+}
+
+.games {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.csgo img {
+    float: left;
+}
+
+.csgo ol {
+    padding: 40px 0 40px 480px;
+}
+
+.game li {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.gta img {
+    float: right;
+}
+
+.game {
+    margin-bottom: 65px;
+}
+
+.gta ol {
+    padding: 40px 0 40px 120px;
+}
+
+.game img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px violet;
+    border-left: 3px solid purple;
+    border-top: purple 3px solid;
+}
+
+.rdo img {
+    float: left;
+}
+
+.rdo ol {
+    padding: 0px 0 40px 440px;
+}
+
+.games h2 {
+    margin: 50px 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px purple solid;
+    padding: 0 20px;
+}
+
+table li {
+    margin: 10px;
+}
+
+thead th {
+    background-color: rebeccapurple;
+    border: 1px palevioletred solid;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 10px
+}
+
+.prices h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: lightskyblue;
+    box-shadow: 5px 5px 20px white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input,
+textarea,
+button,
+select {
+    width: 60%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    border: aqua 1px solid;
+    border-radius: 8px;
+    outline: none;
+}
+
+label {
+    display: inline-block;
+    padding: 10px 0;
+    color: #0652DD;
+    font-size: 20px;
+}
+
+#promocode_input {
+    opacity: 0;
+}
+
+#promocode:checked~#promocode_input {
+    opacity: 1;
+}
+
+button {
+    margin-top: 10px;
+    width: 200px;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+button:hover,
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    background-color: aquamarine;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    display: inline-block;
+}
+
+.footer {
+    background-color: #130f40;
+    text-align: center;
+    padding: 30px;
+    color: blueviolet;
+    font-size: 19px;
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
+
+.footer a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: blueviolet;
+}
